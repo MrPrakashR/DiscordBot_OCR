@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "discord-reply": "^0.1.2",
+    "discord.js": "^14.12.1",
+    "tesseract.js": "^4.1.1"
+  },
+  "name": "discordbot_ocr",
+  "description": "Bot To Get Image OCR",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
