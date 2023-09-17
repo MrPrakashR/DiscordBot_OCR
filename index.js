@@ -1,4 +1,5 @@
 const { Client, GatewayIntentBits } = require("discord.js")
+const dotenv = require("dotenv").config()
 require("discord-reply");
 const Tesseract = require("tesseract.js");
 
@@ -24,4 +25,4 @@ client.on('messageCreate',(message) => {
 })
 
 
-client.login("TOKEN")
+client.login(process.env.BOT_TOKEN)
