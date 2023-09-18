@@ -25,5 +25,5 @@ client.on('messageCreate',(message) => {
       }
 })
 
-
-client.login(process.env.BOT_TOKEN)
+const TOKEN = process.env.BOT_PART_TOKEN + process.env.BOT_PART_2_TOKEN
+client.login(TOKEN)
