@@ -8,4 +8,6 @@ RUN npm install
 
 COPY . .
 
+EXPOSE 9000
+
 CMD node index.js --bind 0.0.0.0:$PORT
