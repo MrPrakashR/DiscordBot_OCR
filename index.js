@@ -3,7 +3,6 @@ const dotenv = require("dotenv").config()
 require("discord-reply");
 const Tesseract = require("tesseract.js");
 
-
 const client = new Client({ intents: [GatewayIntentBits.Guilds,GatewayIntentBits.GuildMessages,GatewayIntentBits.MessageContent] });
 
 client.on('ready', () => {

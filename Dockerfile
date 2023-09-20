@@ -10,5 +10,4 @@ COPY . .
 
 EXPOSE 10000
 
-CMD node index.js
-# node index.js --bind 0.0.0.0:$PORT
+CMD node index.js --bind 0.0.0.0:10000
